@@ -1,0 +1,135 @@
+@media screen and (max-width: 1300px) {
+  .navigation {
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 23px;
+  }
+
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hr{
+    display: none;
+  }
+  .content-right {
+    display: none;
+  }
+
+  .home-article {
+    flex-direction: column;
+  }
+
+  .home-article-img {
+    text-align: center;
+  }
+
+  .home-article img {
+    width: 70vw;
+  }
+  .form-input {
+    width: 50%;
+  }
+  .form-box input,
+  textarea {
+    width: 66vw;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .social {
+    padding: 0;
+  }
+  .post-img {
+    height: auto;
+  }
+  .adjust-year {
+    position: static;
+    height: auto;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .contact-content{
+    padding-top: 50px;
+  }
+
+  .contact-form{
+    padding-top: 25px;
+  }
+
+  .about-heading{
+    display: flex;
+  }
+
+  
+.embedded-cotent{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: medium;
+  margin: 20px 20px;   
+  font-family: var(--font2);
+  margin-top: 0px;
+  padding-top: 5px;
+  align-items: center;
+  align-content: center;
+}
+
+.embedded-cotent p {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;   
+  font-family: var(--font2);
+  margin-top: 10px;
+  padding-top: 5px;
+  margin-left: 30px;
+  align-items: center;
+  align-content: center;
+}
+.embedded img{
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.iot-content p,h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 200px;   
+  font-family: var(--font2);
+  margin-top: 10px;
+  padding-top: 25px;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 25px;
+  align-content: center;  
+}
+
+.author-social{
+  flex-direction: column;
+  width: 30%;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iot-img{
+  width: 200%;
+  margin: 0px 0px;
+  padding-left: 20px;
+}
+
+.pcb-img{
+  width: 200%;
+}
+
+.footer{
+  width: 100%;
+}
+}

@@ -1,0 +1,17 @@
+.contact-content{
+    height: 350px;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+
+.contact-content ::after{
+    content: "";
+    background-image: url(../img/wp3215341-vlsi-wallpapers.jpg);
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+}

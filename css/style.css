@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 75px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../img/');
+    
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+
+}
+
+.nav-left span {
+    margin: 0 60px;
+}
+.nav-left image{
+    margin: 20px;
+}
+
+
+
+.nav-left ul {
+    display: flex;
+    margin: 0 73px;
+    font-size: 18px;
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    display: flex;
+    margin: 0 20px;
+    font-family: var(--font2);
+    align-items: center;
+}
+
+
+.nav-left ul li a {
+    text-decoration: none;
+
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-size: 20px;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nav-right {
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    margin: -34px 66px;
+}
+
+.content ::after{
+    content: "";
+    background-image: url(../img/wp3215341-vlsi-wallpapers.jpg);
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.content-left {
+    font-family: var(--font1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+}
+
+.content-left h1{
+    font-family: var(--font1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.content-right {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.content-right img {
+    height: 300px;
+    BORDER: 2px solid darkolivegreen;
+    border-radius: 15px;
+}
+
+.author-name{
+    margin-top: 6px;
+    margin-bottom: 6px  ;
+}
+
+.home-articles {
+    padding: 20px;
+}
+
+.home-article {
+    display: flex;
+    margin: 20px;
+}
+
+.home-article a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-article img {
+    height: 175px;
+    border: 4px;
+}
+
+.home-article-content{
+    align-self: center;    
+    padding: 25px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.vision{
+    padding-bottom: 20px;
+}
+.about-content p {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;   
+    font-family: var(--font2);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.offer{
+    padding-top: 20px;
+}
+.offer p{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;   
+    font-family: var(--font2);
+    margin-top: 5px;
+    padding-top: 5px;
+    align-items: center;
+    align-content: center
+} 
+
+.embedded-cotent{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;   
+    font-family: var(--font2);
+    margin-top: 0px;
+    padding-top: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+.embedded-cotent p {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;   
+    font-family: var(--font2);
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-left: 30px;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.embedded img{
+    margin: 20px 88px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px    ;
+    display: flex;
+    padding-top: -50px;
+}
+
+.iot-content p,h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px;   
+    font-family: var(--font2);
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-left: 20px;
+    align-items: center;
+    align-content: center;  
+}
+
+.author-social{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    cursor: pointer;
+}
